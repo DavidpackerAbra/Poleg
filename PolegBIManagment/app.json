@@ -10,14 +10,33 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "5d629b6d-b1ba-42c1-99b8-259cd1f92ab3",
+      "name": "Poleg",
+      "publisher": "abra IT",
+      "version": "26.0.54.46"
+    },
+     {
+      "id": "43591f51-81d6-4e26-8b39-0fbe3feebcf1",
+      "name": "LocalisationSaas",
+      "publisher": "abra IT",
+      "version": "26.0.27.55"
+    },
+     {
+      "id": "f2df027c-252a-4e1c-9a12-c9f2502a86ec",
+      "name": "9001 - Vendor Payment Journal",
+      "publisher": "abra IT",
+      "version": "25.0.6.31"
+    }
+  ],
   "screenshots": [],
   "platform": "27.0.0.0",
   "application": "27.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50300,
+      "to": 50399
     }
   ],
   "resourceExposurePolicy": {
