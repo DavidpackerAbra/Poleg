@@ -121,6 +121,10 @@ page 50317 "Items API PLG"
                 {
                     Caption = 'Project Name';
                 }
+                field(safetyStockQuantity; Rec."Safety Stock Quantity")
+                {
+                    Caption = 'Safety Stock';
+                }
             }
         }
     }
