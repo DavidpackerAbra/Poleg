@@ -5,8 +5,8 @@ using Microsoft.Inventory.Analysis;
 
 page 50345 "Sales Budget API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'Sales Budget API PLG';

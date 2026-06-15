@@ -6,8 +6,8 @@ using Microsoft.Inventory.Item;
 
 page 50349 "Sales Shipment Line API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'Sales Shipment Line API PLG';

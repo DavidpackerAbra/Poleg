@@ -4,8 +4,8 @@ using Microsoft.Inventory.Ledger;
 
 page 50344 "Value Entries API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'Value Entries API PLG';

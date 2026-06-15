@@ -5,8 +5,8 @@ using Microsoft.Purchases.Vendor;
 
 page 50348 "Vendor Entries API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'Vendor Entries API PLG';

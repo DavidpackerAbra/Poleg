@@ -6,8 +6,8 @@ using Microsoft.Inventory.Item;
 
 page 50351 "Archive Sales Order Line API"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'Archive Sales Order Line API PLG';

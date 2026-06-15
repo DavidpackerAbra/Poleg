@@ -4,8 +4,8 @@ using Microsoft.Finance.GeneralLedger.Budget;
 
 page 50346 "GL Budget API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'GL Budget API PLG';

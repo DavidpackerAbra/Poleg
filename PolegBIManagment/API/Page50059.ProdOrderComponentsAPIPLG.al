@@ -4,8 +4,8 @@ using Microsoft.Manufacturing.Document;
 
 page 50359 "Prod. Order Comp. API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'prodOrderComponentsAPI';
