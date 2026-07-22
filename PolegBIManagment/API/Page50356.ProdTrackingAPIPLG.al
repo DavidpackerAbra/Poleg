@@ -7,7 +7,7 @@ using Microsoft.Inventory.Ledger;
 using Microsoft.Manufacturing.Document;
 using abraIT.Poleg.MainApp;
 
-page 50073 "Prod. Tracking API PLG"
+page 50356 "Prod. Tracking API PLG"
 {
     APIGroup = 'poleg';
     APIPublisher = 'abraIT';
