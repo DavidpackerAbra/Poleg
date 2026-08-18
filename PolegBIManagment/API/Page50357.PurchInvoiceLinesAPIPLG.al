@@ -5,6 +5,7 @@ using Microsoft.Purchases.Vendor;
 using Microsoft.Inventory.Item;
 using Microsoft.Finance.GeneralLedger.Account;
 using Microsoft.Finance.GeneralLedger.Setup;
+using Microsoft.Finance.GeneralLedger.Ledger;
 using Microsoft.Finance.Currency;
 
 page 50357 "Purch. Invoice Lines API PLG"
@@ -134,6 +135,10 @@ page 50357 "Purch. Invoice Lines API PLG"
                 {
                     Caption = 'Vendor Invoice No.';
                 }
+                field(glAccountNo; GLAccountNoTxt)
+                {
+                    Caption = 'G/L Account No.';
+                }
             }
         }
     }
@@ -146,6 +151,7 @@ page 50357 "Purch. Invoice Lines API PLG"
         GenBusPostingGroupTxt: Code[20];
         VendorInvoiceNoTxt: Code[35];
         LineAmountLCY: Decimal;
+        GLAccountNoTxt: Code[20];
 
     trigger OnAfterGetRecord()
     var
@@ -190,5 +196,19 @@ page 50357 "Purch. Invoice Lines API PLG"
             VendorInvoiceNoTxt := '';
             LineAmountLCY := 0;
         end;
+
+        GLAccountNoTxt := GetGLAccountNo();
+    end;
+
+    local procedure GetGLAccountNo(): Code[20]
+    var
+        GeneralPostingSetup: Record "General Posting Setup";
+    begin
+        if Rec.Type = Rec.Type::"G/L Account" then
+            exit(Rec."No.");
+
+        if GeneralPostingSetup.Get(Rec."Gen. Bus. Posting Group", Rec."Gen. Prod. Posting Group") then
+            exit(GeneralPostingSetup."Purch. Account");
+        exit('');
     end;
 }
