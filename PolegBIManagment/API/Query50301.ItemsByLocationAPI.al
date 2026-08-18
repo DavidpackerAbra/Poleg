@@ -6,8 +6,8 @@ using Microsoft.Inventory.Ledger;
 query 50301 "Items By Location API"
 {
     QueryType = API;
-    APIPublisher = 'poleg';
-    APIGroup = 'bi';
+    APIPublisher = 'abraIT';
+    APIGroup = 'poleg';
     APIVersion = 'v2.0';
     EntityName = 'itemByLocation';
     EntitySetName = 'itemsByLocation';

@@ -11,8 +11,8 @@ using Microsoft.Finance.Dimension;
 
 page 50317 "Items API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'itemsAPIPLG';

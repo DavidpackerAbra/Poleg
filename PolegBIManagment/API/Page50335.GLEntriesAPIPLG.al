@@ -16,8 +16,8 @@ using Microsoft.Foundation.Enums;
 
 page 50335 "GL Entries API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'GL Entries API PLG';

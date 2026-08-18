@@ -4,8 +4,8 @@ using Microsoft.Finance.GeneralLedger.Account;
 
 page 50352 "G/L Account API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'gLAccountAPIPLG';
