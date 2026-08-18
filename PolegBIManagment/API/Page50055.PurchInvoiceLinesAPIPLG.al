@@ -202,16 +202,13 @@ page 50357 "Purch. Invoice Lines API PLG"
 
     local procedure GetGLAccountNo(): Code[20]
     var
-        GLEntry: Record "G/L Entry";
+        GeneralPostingSetup: Record "General Posting Setup";
     begin
         if Rec.Type = Rec.Type::"G/L Account" then
             exit(Rec."No.");
 
-        GLEntry.SetRange("Document No.", Rec."Document No.");
-        GLEntry.SetRange("Gen. Posting Type", GLEntry."Gen. Posting Type"::Purchase);
-        if GLEntry.FindFirst() then
-            exit(GLEntry."G/L Account No.");
-
+        if GeneralPostingSetup.Get(Rec."Gen. Bus. Posting Group", Rec."Gen. Prod. Posting Group") then
+            exit(GeneralPostingSetup."Purch. Account");
         exit('');
     end;
 }
