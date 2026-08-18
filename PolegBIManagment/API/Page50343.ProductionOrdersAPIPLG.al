@@ -8,8 +8,8 @@ using abraIT.Poleg.MainApp;
 
 page 50343 "Production Orders API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'productionOrdersAPI';

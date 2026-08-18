@@ -5,8 +5,8 @@ using Microsoft.Sales.Customer;
 
 page 50347 "Customer Entries API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'Customer Entries API PLG';

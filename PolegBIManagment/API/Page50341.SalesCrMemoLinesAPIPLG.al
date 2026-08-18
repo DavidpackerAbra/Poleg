@@ -9,8 +9,8 @@ using Microsoft.Finance.Currency;
 
 page 50341 "Sales Cr.Memo Lines API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'salesCreditMemoLinesAPI';

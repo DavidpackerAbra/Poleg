@@ -6,8 +6,8 @@ using Microsoft.Finance.GeneralLedger.Account;
 
 page 50363 "VAT Entries API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'VAT Entries API PLG';

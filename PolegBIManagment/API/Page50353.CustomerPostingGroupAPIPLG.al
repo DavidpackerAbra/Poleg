@@ -4,8 +4,8 @@ using Microsoft.Sales.Customer;
 
 page 50353 "Customer Posting Group API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'customerPostingGroupAPIPLG';

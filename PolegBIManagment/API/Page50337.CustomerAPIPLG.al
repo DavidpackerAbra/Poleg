@@ -5,8 +5,8 @@ using Microsoft.Foundation.Address;
 
 page 50337 "Customer API PLG"
 {
-    APIGroup = 'bi';
-    APIPublisher = 'poleg';
+    APIGroup = 'poleg';
+    APIPublisher = 'abraIT';
     APIVersion = 'v2.0';
     ApplicationArea = All;
     Caption = 'customerAPIPLG';
