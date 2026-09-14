@@ -2,17 +2,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Microsoft cloud sandbox",
+            "name": "Poleg_Test2",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "Poleg_Dev",
-            "startupObjectId": 22,
+            "environmentName": "Poleg_SandBox2",
+            "tenant": "b10345ab-0014-4890-8c12-e2498c9abcfb",
+            "startupObjectId": 9652,
             "startupObjectType": "Page",
-            "breakOnError": "All",
+            "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            "forceUpgrade": false
         }
     ]
 }
