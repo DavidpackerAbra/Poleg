@@ -80,8 +80,8 @@ page 50364 "Qlty. Insp. Header API PLG"
                 field(salesOrderNoPLG; Rec."Sales Order No. PLG") { Caption = 'Sales Order No.'; }
                 field(sellToCustomerNoPLG; Rec."Sell-to Customer No. PLG") { Caption = 'Sell-to Customer No.'; }
                 field(sellToCustomerNamePLG; Rec."Sell-to Customer Name PLG") { Caption = 'Sell-to Customer Name'; }
-                field(operatorName; Rec."Operator Name") { Caption = 'Operator Name'; }
-                field(checkerName; Rec."Checker Name") { Caption = 'Checker Name'; }
+                field(operatorName; Rec."Operator Name PLG") { Caption = 'Operator Name'; }
+                field(checkerName; Rec."Checker Name PLG") { Caption = 'Checker Name'; }
                 field(systemId; Rec.SystemId) { Caption = 'SystemId'; }
                 field(systemCreatedAt; Rec.SystemCreatedAt) { Caption = 'SystemCreatedAt'; }
                 field(systemCreatedBy; Rec.SystemCreatedBy) { Caption = 'SystemCreatedBy'; }
