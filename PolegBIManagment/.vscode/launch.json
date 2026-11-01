@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Poleg_Test2",
+            "name": "Poleg_Sandbox",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "Poleg_SandBox2",
+            "environmentName": "Poleg_Sandbox",
             "tenant": "b10345ab-0014-4890-8c12-e2498c9abcfb",
             "startupObjectId": 9652,
             "startupObjectType": "Page",
